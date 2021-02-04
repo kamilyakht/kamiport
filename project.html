@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projecten</title>
+    <link href='https://fonts.googleapis.com/css?family=AnnieUseYourTelescope' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+    <link rel="stylesheet" href="pro.css">
+    <style>
+      body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('p66.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } 
+  .text{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;  }
+
+    .flex-container {
+      display: flex;
+      background-color: rgba(146, 82, 23, 0.521);
+      justify-content: center;
+      border-radius: 10px;
+    }
+    
+    .flex-container > div {
+      background-color: #e0cfaf;
+      width: 100px;
+     margin: 5px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 20px;
+      color: aliceblue;
+      font-family: 'Arizonia';
+      border-radius: 10px;
+      
+    }
+    h1{
+    font-family: 'Arizonia';
+    font-size: 40px;
+    color:rgb(141, 80, 30);
+    }
+    p{
+        font-family:'Arizonia' ;
+        font-size: 18px;
+        color: rgb(105, 43, 27);
+    
+  }
+  #home{
+      color:rgb(100, 77, 30);
+      font-family: 'Courier New', monospace;
+  }
+  #post{
+    font-family: 'Arizonia';
+      color: aliceblue;
+  }
+  #illu{
+    font-family: 'Arizonia';
+      color: aliceblue;
+  }
+  #logo{
+    font-family: 'Arizonia';
+      color: aliceblue;
+  }
+  #video{
+    font-family: 'Arizonia';
+      color: aliceblue;
+  }
+  #recept{
+    font-family: 'Arizonia';
+      color: aliceblue;
+  }
+  .flex-container > div:hover{
+ 
+  background-color: rgba(5, 5, 5, 0.616);
+  }
+  #home:hover {
+  background-color: rgba(206, 184, 89, 0.616);
+}
+div {
+  position: relative;
+  animation: myfirst 6s linear 0s;
+}
+
+@keyframes myfirst {
+  0%   { left:-200px; top:0px;}
+  25%  { left:100px; top:0px;}
+  50%   { left:0px; top:0px;}
+}
+
+
+    
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="text">
+    <h1> <i>Mijn Projecten </i></h1>
+    <div>
+    <div class="flex-container">
+        <div><a href="poster.html" id="post"> <i>Poster</i></a></div>
+        <div><a href="illustratie.html" id="illu"> <i>Illustratie</i></a></div>
+        <div><a href="logo.html" id="logo"> <i>Logo</i></a> </div>  
+        <div><a href="video.html" id="video"> <i>Video</i></a> </div>
+        <div><a href="https://vigorous-turing-d23f17.netlify.app" id='recept'><i>Recepten</i></a></div>
+      </div>
+    </div>
+      <p><strong>Go to the</strong> <a href="index.html" id="home"> <i>Homepage </i></a></p>
+    </div>
+
+     
+    
+</body>
+</html>

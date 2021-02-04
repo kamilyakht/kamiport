@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('k09082.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  img{
+      width: 30%;
+     border-radius: 30%;
+  }
+  .text{
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    background-blend-mode: overlay;
+    background-color: hsla(0, 0%, 2%, 0.267);
+    border-radius: 0%;
+  }  
+
+  h1{
+    font-family: 'Arizonia';
+    font-size: 30px;
+    color: rgb(172, 78, 35);
+    
+  
+  }
+
+  p{
+    font-family: 'Arizonia';
+    color: rgb(168, 191, 211);
+    font-size: 18px;
+
+  }  
+  a:hover {
+ background-color: rgba(5, 5, 5, 0.616);
+}
+
+  #homepage{
+         font-family: 'Courier New', monospace;
+        
+           color: aliceblue;
+       }
+       #page{
+         font-family: 'Courier New', monospace;
+        
+           color: aliceblue;
+       }

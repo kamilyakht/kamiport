@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('cereals442399.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .text{
+    padding: 70px;
+    justify-content: center;
+    text-align: center;
+    background-blend-mode: overlay;
+    background-color: hsla(0, 0%, 0%, 0.486);
+    border-radius: 0%;
+  }  
+  h1{
+    font-family: 'Arizonia';
+    font-size: 30px;
+    color:rgb(238, 135, 76);
+  
+  }
+  p{
+    font-family: 'Arizonia';
+    color:rgb(218, 166, 118);
+    font-size: 15px;
+  }
+
+  #homepage{
+    font-family: 'Courier New', monospace;
+   
+      color: aliceblue;
+  }
+  #page{
+    font-family: 'Courier New', monospace;
+   
+      color: aliceblue;
+  }
+  a:hover {
+background-color: rgba(138, 67, 67, 0.616);
+}

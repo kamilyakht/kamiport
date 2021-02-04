@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('sunset.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } 
+  p{
+        font-family: 'arizonia';
+        font-size: 20px;
+        color: rgb(235, 194, 147);
+  }
+  .text{
+    padding: 70px;
+    justify-content: center;
+    text-align: center;
+    background-blend-mode: overlay;
+    background-color: hsla(0, 0%, 0%, 0.336);
+    border-radius: 0%;
+  }  
+
+  h1{
+    font-family: 'arizonia';
+    font-size: 30px;
+    color:rgb(197, 153, 77);
+  
+  }
+  #home{
+font-family: 'Courier New', monospace;
+color: aliceblue;
+font-size: 16px;
+}
+#mail{
+font-family: 'Courier New', monospace;
+color: aliceblue;
+font-size: 16px;
+}
+a:hover {
+background-color: rgba(194, 182, 78, 0.616);
+}

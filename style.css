@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('photo40.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+   .text{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;  
+    background-blend-mode: overlay;
+    background-color: hsla(36, 49%, 47%, 0.7);
+    border-radius: 40%;
+   }
+   h1{
+    font-family: 'arizonia';
+    font-size: 30px;
+    color:rgb(250, 222, 174);
+   
+   }
+   h2{
+      font-family: 'arizonia';
+      color:rgb(105, 43, 27);
+      font-size: 22px;
+   }
+   a{
+    font-family: 'Courier New', monospace;
+   display: block;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ margin-left: 0;
+ margin-right: 0;
+
+   }
+   #abo{
+      color: aliceblue;
+   }
+   #con{
+      color: aliceblue;
+   }
+   #pro{
+      color: aliceblue;
+   }
+   
+   a:hover {
+ background-color: rgba(5, 5, 5, 0.616);
+}
